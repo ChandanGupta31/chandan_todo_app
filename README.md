@@ -24,19 +24,32 @@ lib/
 ```
 
 ## 📱 Feature & Performance Capabilities
+
 **Full CRUD Persistence:** Flawless tracking, modification, and swipe-to-delete task workflows backed by sub-millisecond local binary storage engine cycles.
+
 **Granular Task Metadata:** Advanced entity configurations mapping descriptive text, precise deadline dates, and distinct priority weight classifications.
+
 **Reactive Filtering Hub:** Lightning-fast search indexing and filter chip matrix switches managed reactively via client-side state processing.
+
 **Smart Recurrence Engine:** Built-in calculation layers automatically executing forward-rolling date projections for Daily, Alternate, Weekly, and Monthly intervals upon task completion.
+
 **Custom Notification Windows:** Fully integrated local alarm bridges letting users customize precision target alerts linked directly to target task deadlines.
+
 **Dual-Engine Theme Controller:** A customized interactive Material 3 manual light/dark interface toggle utilizing unified color schemes with full real-time system fallbacks.
+
 **Isolated Testing Infrastructure:** Complete programmatic validation engine leveraging mocked data injection streams to assert state-flow safety margins across extreme conditions.
 
 ## 🛠️ Enterprise Technology Stack
-**State Management (flutter_bloc):** Applied to enforce explicit, unidirectional data flows. This ensures predictable state transitions and eliminates structural race-conditions during dense interface refreshes.
+
+**State Management (flutter_bloc):** Applied to enforce explicit, unidirectional data flows. This ensures predictable state transitions and eliminates structural race-conditions during 
+dense interface refreshes.
+
 **Dependency Injection (get_it):** Leveraged as an enterprise service locator pattern to manage memory consumption through lazy singletons and eliminate tight object-to-object couplings.
+
 **Local Persistence Engine (hive & hive_flutter):** Implemented for high-speed local data persistence. It performs raw binary serialization on local disk clusters without utilizing heavy, slow SQL query parsers.
+
 **Native Device Bridges (flutter_local_notifications):** Directly hooks into underlying Android AlarmManagers and iOS Darwin notifications to ensure accurate alarm deliveries in low-power idle states.
+
 **Quality Assurance Framework (bloc_test & mocktail):** Utilized to execute behavioral assertions on business logic code in complete isolation from external framework factors.
 
 ## 🚀 Step-by-Step Local Deployment Guide
@@ -71,22 +84,22 @@ To verify the entire business logic and state architecture against edge-case eva
 ## 📸 Application Gallery
 Here is a look at the production build in action:
 
-**1. Clean Home Screen (Light Mode & Priority Tags)**
-![Dashboard Light Mode](assets/screenshots/light_mode.png)
+<p align="center">
+  <img src="assets/screenshots/light_mode.png" width="250" alt="Dashboard Light Mode" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/screenshots/dark_mode.png" width="250" alt="Dark Mode View" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/screenshots/date_time_scheduling.png" width="250" alt="Time Picker" />
+</p>
 
-**2. Fluid Dark Mode Integration**
-![Dark Mode View](assets/screenshots/dark_mode.png)
+<p align="center">
+  <img src="assets/screenshots/notification.png" width="250" alt="Local Notification Firing" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/screenshots/delete_task.png" width="250" alt="Delete Action" />
+</p>
 
-**3. Material 3 Date & Time Scheduling**
-![Time Picker](assets/screenshots/date_time_scheduling.png)
 
-**4. Background Push Notifications**
-![Local Notification Firing](assets/screenshots/notification.png)
-
-**5. Swipe-to-Delete Gestures**
-![Delete Action](assets/screenshots/delete_task.png)
-
-**6. Demo Video**
+**Demo Video**
 
 https://github.com/user-attachments/assets/a7eec241-5db4-45c4-a8e2-fbe5d9fa1a37
 
